@@ -7,5 +7,5 @@ RUN add-apt-repository ppa:chris-lea/node.js
 RUN apt-get -y update
 
 # install node most recent stable as well as npm
-RUN apt-get install nodejs
+RUN apt-get -y install nodejs
 
