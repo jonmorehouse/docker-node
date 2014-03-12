@@ -15,6 +15,7 @@ RUN node app.js
 
 ```
 ```
+# interactive
 sudo docker pull jonmorehouse/node
 docker run -i -t jonmorehouse/node /bin/bash
 
