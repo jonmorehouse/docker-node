@@ -12,5 +12,5 @@ RUN apt-get -y install nodejs
 RUN ln -sf `which nodejs` /usr/bin/node
 
 # install coffeescript
-RUN npm install -g coffeescript
+RUN npm install -g coffee-script
 
