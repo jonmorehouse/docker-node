@@ -8,4 +8,9 @@ RUN apt-get -y update
 
 # install node most recent stable as well as npm
 RUN apt-get -y install nodejs
+# symlink nodejs to node
+RUN symlink -fs `which nodejs` /usr/bin/node
+
+# install coffeescript
+RUN npm install -g coffeescript
 
